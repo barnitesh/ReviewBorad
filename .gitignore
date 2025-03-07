@@ -1,0 +1,52 @@
+# git-ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+
+# Wildcards
+.*.swp
+.*.swo
+*.bak
+*.db
+*.db.*
+*.egg-info
+*.orig
+*.pyc
+*.rej
+
+# Files
+.coverage
+.noseids
+reviewboard/settings_local.py
+reviewboard.log
+settings_local.py
+
+# Generated locale files
+django.mo
+djangojs.mo
+
+# Directories/symlinks
+.DS_Store
+docs/manual/extending/coderef/python
+reviewboard/htdocs/media/djblets
+reviewboard/htdocs/media/uploaded
+reviewboard/htdocs/static
+docs/manual/data/htdocs/media/uploaded/
+_build
+build
+dist
+django_cache
+node_modules
+pickle
+search-index/
+temp
+.idea
+.npm-workspaces
+bak
+reviewboard/scmtools/testdata/hg_repo/.hg/cache/branch2-served
+reviewboard/scmtools/testdata/hg_repo/.hg/cache/tags2-visible
+reviewboard/scmtools/testdata/hg_repo/.hg/cache/rbc-names-v1
+reviewboard/scmtools/testdata/hg_repo/.hg/cache/rbc-revs-v1
+reviewboard/scmtools/testdata/hg_repo/.hg/wcache/
